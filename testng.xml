@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test1" verbose="1">
+    <test name="Calculator" preserve-order="true" enabled="true">
+        <parameter name="x" value="3"/>
+        <parameter name="y" value="6"/>
+        <parameter name="result" value="9"></parameter>
+        <classes>
+            <class name="CalculatorTest"></class>
+        </classes>
+    </test>
+</suite>

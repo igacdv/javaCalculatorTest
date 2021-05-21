@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [test1]">
+  <test thread-count="5" verbose="0" name="Calculator(failed)">
+    <parameter name="result" value="9"/>
+    <parameter name="x" value="3"/>
+    <parameter name="y" value="6"/>
+    <classes>
+      <class name="CalculatorTest">
+        <methods>
+          <include name="testAdd"/>
+        </methods>
+      </class> <!-- CalculatorTest -->
+    </classes>
+  </test> <!-- Calculator(failed) -->
+</suite> <!-- Failed suite [test1] -->
